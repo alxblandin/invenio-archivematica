@@ -36,6 +36,7 @@ tests_require = [
     'coverage>=4.0',
     'invenio-accounts>=1.0.0b9',
     'isort>=4.2.2',
+    'mock >= 2.0.0',
     'pydocstyle>=1.0.0',
     'pytest-cache>=1.0',
     'pytest-cov>=1.8.0',
@@ -45,7 +46,7 @@ tests_require = [
 
 extras_require = {
     'docs': [
-        'Sphinx>=1.5.1,<1.6',  # TODO unpin see https://github.com/inveniosoftware/troubleshooting/issues/11
+        'Sphinx>=1.5.1',  
     ],
     'tests': tests_require,
 }
